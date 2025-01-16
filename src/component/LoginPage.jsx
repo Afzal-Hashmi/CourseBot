@@ -1,4 +1,3 @@
-// components/LoginPage.js
 import React from "react";
 import "./Form.css";
 import image from "../assets/pp.jpg";
@@ -15,7 +14,7 @@ const LoginPage = () => {
         </div>
         <div className="form-contain">
           <h2 className="project-login">Login</h2>
-          <form>
+          <form action="/dashboard">
             <div className="input-fields">
               <div className="form-group">
                 <input type="email" id="email" placeholder="Email" />
