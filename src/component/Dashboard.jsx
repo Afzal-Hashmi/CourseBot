@@ -1,0 +1,14 @@
+// import Sidebar from "./Sidebar";
+// import Card from "./card";
+import "./dash.css";
+
+const Dashboard = () => {
+  return (
+    <div className="co">
+      {/* <Sidebar /> */}
+      <div className="cc">{/* <Card description="Learn React" /> */}</div>
+    </div>
+  );
+};
+
+export default Dashboard;
