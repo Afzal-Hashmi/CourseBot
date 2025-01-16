@@ -15,14 +15,6 @@ const App = () => {
   return (
     <Router>
       <div className={`app ${darkMode ? "dark-mode" : "light-mode"}`}>
-        {/* <header className="header">
-          <div>
-            <button onClick={toggleDarkMode} className="toggle-btn">
-              {darkMode ? "Light Mode" : "Dark Mode"}
-            </button>
-          </div>
-        </header> */}
-
         <main className="main">
           <Routes>
             <Route path="/" element={<LoginPage />} />
