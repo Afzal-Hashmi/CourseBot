@@ -3,6 +3,8 @@ import React, { useState } from "react";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import LoginPage from "./component/LoginPage";
 import SignupPage from "./component/SignupPage";
+import Dashboard from "./component/Dashboard";
+
 import "./App.css";
 
 const App = () => {
@@ -14,18 +16,11 @@ const App = () => {
 
   return (
     <Router>
-      <div className={`app ${darkMode ? "dark-mode" : "light-mode"}`}>
-        {/* <header className="header">
-          <div>
-            <button onClick={toggleDarkMode} className="toggle-btn">
-              {darkMode ? "Light Mode" : "Dark Mode"}
-            </button>
-          </div>
-        </header> */}
-
+      <div className="app">
         <main className="main">
           <Routes>
             <Route path="/" element={<LoginPage />} />
+            {/* <Route path="/dashboard" element={<Dashboard />} /> */}
             <Route path="/signup" element={<SignupPage />} />
           </Routes>
         </main>
