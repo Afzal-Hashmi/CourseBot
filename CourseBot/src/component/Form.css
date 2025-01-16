@@ -1,0 +1,78 @@
+/* // Form.css */
+.form-container {
+  background: white;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  width: 70%;
+  max-width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  justify-content: space-around;
+}
+
+.project-name {
+  text-align: center;
+  /* font-weight: 800; */
+  /* font-size: 20px; */
+  /* margin-bottom: 50px; */
+  border: 2px solid green;
+}
+
+/* .project-login {
+  text-align: center;
+  font-weight: 800;
+  font-size: 20px;
+  margin-top: 0;
+  border: 2px solid blue;
+} */
+
+.form-container h2 {
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+form {
+  width: 90%;
+  align-items: center;
+  align-content: center;
+}
+
+.form-group input {
+  width: 90%;
+  padding: 10px;
+  border-width: 0 0 1px 0;
+  border-color: grey;
+  background-color: white;
+  color: #333;
+}
+
+.submit-btn {
+  background-color: #4989e7;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  width: 99%;
+}
+
+.app.light-mode {
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+.app.dark-mode {
+  background-color: #1e1e1e;
+  color: #f5f5f5;
+}
