@@ -1,38 +1,27 @@
-/* // Form.css */
 .form-container {
+  display: flex;
+  align-items: center;
+  max-width: 1000px;
+  justify-content: space-evenly;
+}
+
+.content-wrapper {
   background: white;
-  padding: 30px;
+  padding: 0 0 30px 0;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   width: 70%;
-  max-width: 300px;
+  max-width: 1100px;
   display: flex;
   flex-direction: column;
-  align-items: center;
-}
-
-.title-container {
-  display: flex;
-  flex-direction: column;
-  gap: 2px;
-  justify-content: space-around;
 }
 
 .project-name {
   text-align: center;
-  /* font-weight: 800; */
-  /* font-size: 20px; */
-  /* margin-bottom: 50px; */
-  border: 2px solid green;
-}
-
-/* .project-login {
-  text-align: center;
   font-weight: 800;
-  font-size: 20px;
-  margin-top: 0;
-  border: 2px solid blue;
-} */
+  font-size: 30px;
+  margin-bottom: 10px;
+}
 
 .form-container h2 {
   margin-bottom: 20px;
@@ -40,12 +29,35 @@
 
 .form-group {
   margin-bottom: 15px;
+
+  width: 100%;
+}
+
+img {
+  max-width: 500px;
+  height: 300px;
+  display: block;
+}
+
+a {
+  color: black;
+}
+.bot {
+  color: coral;
+}
+
+a:hover {
+  color: coral;
 }
 
 form {
-  width: 90%;
+  width: 100%;
   align-items: center;
   align-content: center;
+}
+
+.input-fields {
+  margin-bottom: 50px;
 }
 
 .form-group input {
@@ -58,21 +70,10 @@ form {
 }
 
 .submit-btn {
-  background-color: #4989e7;
+  background-color: coral;
   color: white;
-  border: none;
   padding: 10px 20px;
   cursor: pointer;
   border-radius: 5px;
-  width: 99%;
-}
-
-.app.light-mode {
-  background-color: #f5f5f5;
-  color: #333;
-}
-
-.app.dark-mode {
-  background-color: #1e1e1e;
-  color: #f5f5f5;
+  width: 100%;
 }
