@@ -16,5 +16,3 @@ const Card = (props) => {
 };
 
 export default Card;
-
-// Inside your App.js file

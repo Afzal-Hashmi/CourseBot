@@ -17,7 +17,6 @@
 }
 
 .form-container {
-  border: 2px solid green;
   display: flex;
   align-items: center;
   max-width: 1200px;
@@ -42,6 +41,7 @@ img {
 a {
   color: black;
 }
+
 .bot {
   color: coral;
 }
@@ -54,7 +54,6 @@ form {
   width: 100%;
   align-items: center;
   align-content: center;
-  border: 2px solid blue;
 }
 
 .input-fields {
@@ -62,7 +61,7 @@ form {
 }
 
 .form-group input {
-  width: 90%;
+  width: 100%;
   padding: 10px;
   border-width: 0 0 1px 0;
   border-color: grey;
@@ -77,4 +76,10 @@ form {
   cursor: pointer;
   border-radius: 5px;
   width: 100%;
+}
+
+.form-contain {
+  width: 500px;
+  margin-right: 50px;
+  margin-left: 50px;
 }
