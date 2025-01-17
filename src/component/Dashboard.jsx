@@ -19,7 +19,9 @@ const Dashboard = () => {
 
   return (
     <div className="co">
-      <Sidebar />
+      <div className="side">
+        <Sidebar />
+      </div>
       <div className="container">
         {courseList ? (
           courseList.map((course) => (
