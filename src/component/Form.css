@@ -17,6 +17,7 @@
 }
 
 .form-container {
+  border: 2px solid green;
   display: flex;
   align-items: center;
   max-width: 1200px;
@@ -53,6 +54,7 @@ form {
   width: 100%;
   align-items: center;
   align-content: center;
+  border: 2px solid blue;
 }
 
 .input-fields {
