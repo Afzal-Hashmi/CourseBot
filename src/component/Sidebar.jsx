@@ -12,20 +12,25 @@ import { NavLink } from "react-router-dom";
 const Sidebar = () => {
   return (
     <div
-      style={{ display: "flex", height: "100vh", overflow: "scroll initial" }}
+      style={{
+        display: "flex",
+        height: "100vh",
+        overflow: "scroll initial",
+        border: "1px solid green",
+      }}
     >
-      <CDBSidebar textColor="#fff" backgroundColor="#333">
+      <CDBSidebar textColor="green" backgroundColor="green">
         <CDBSidebarHeader prefix={<i className="fa fa-bars fa-large"></i>}>
           <a
             href="/"
             className="text-decoration-none"
-            style={{ color: "inherit" }}
+            style={{ color: "inherit", border: "1px solid green" }}
           >
             CourseBot
           </a>
         </CDBSidebarHeader>
 
-        <CDBSidebarContent className="sidebar-content">
+        <CDBSidebarContent className="sidebar">
           <CDBSidebarMenu>
             <NavLink exact to="/" activeClassName="activeClicked">
               <CDBSidebarMenuItem icon="columns">Dashboard</CDBSidebarMenuItem>
@@ -39,24 +44,16 @@ const Sidebar = () => {
             <NavLink exact to="/" activeClassName="activeClicked">
               <CDBSidebarMenuItem icon="chart-line">Login</CDBSidebarMenuItem>
             </NavLink>
-
-            <NavLink
-              exact
-              to="/hero404"
-              target="_blank"
-              activeClassName="activeClicked"
-            >
-              <CDBSidebarMenuItem icon="exclamation-circle">
-                404 page
-              </CDBSidebarMenuItem>
-            </NavLink>
           </CDBSidebarMenu>
         </CDBSidebarContent>
 
-        <CDBSidebarFooter style={{ textAlign: "center" }}>
+        <CDBSidebarFooter
+          style={{ textAlign: "center", border: "1px solid green" }}
+        >
           <div
             style={{
               padding: "20px 5px",
+              border: "1px solid green",
             }}
           >
             Sidebar Footer

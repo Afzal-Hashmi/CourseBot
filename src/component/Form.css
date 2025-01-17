@@ -1,13 +1,6 @@
-.form-container {
-  display: flex;
-  align-items: center;
-  max-width: 1200px;
-  justify-content: space-evenly;
-}
-
 .content-wrapper {
   background: white;
-  padding: 30px 30px 30px 20px;
+  padding: 0 0 20px 0;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   width: 70%;
@@ -16,10 +9,18 @@
 }
 
 .project-name {
+  margin-top: 30px;
   text-align: center;
   font-weight: 800;
   font-size: 30px;
   margin-bottom: 10px;
+}
+
+.form-container {
+  display: flex;
+  align-items: center;
+  max-width: 1200px;
+  justify-content: space-evenly;
 }
 
 .form-container h2 {
