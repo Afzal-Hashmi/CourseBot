@@ -1,4 +1,3 @@
-import React from "react";
 import "./card.css";
 import image from "../assets/imes.jpg";
 const Card = (props) => {
@@ -8,7 +7,7 @@ const Card = (props) => {
       <div className="card-body">
         <h5 className="card-title">{props.title}</h5>
         <p className="card-text">{props.description}</p>
-        <a href="course/{props.id}" className="btn btn-primary">
+        <a href={`course/${props.id}`} className="btn btn-danger">
           Enroll
         </a>
       </div>

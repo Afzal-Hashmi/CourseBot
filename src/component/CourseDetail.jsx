@@ -1,6 +1,6 @@
 import React from "react";
 import { useParams } from "react-router-dom";
-import "./coursedetail.css";
+import "./CourseDetail.css";
 
 const CourseDetail = () => {
   const mockCourses = [
