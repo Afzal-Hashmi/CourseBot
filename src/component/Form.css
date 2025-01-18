@@ -38,7 +38,7 @@ img {
   display: block;
 }
 
-a {
+.link {
   color: black;
 }
 
@@ -79,7 +79,83 @@ form {
 }
 
 .form-contain {
-  width: 500px;
+  width: 100%;
   margin-right: 50px;
   margin-left: 50px;
+}
+
+@media (max-width: 768px) {
+  .content-wrapper {
+    width: 90%;
+    padding: 10px;
+  }
+
+  .project-name {
+    font-size: 24px;
+    margin-top: 20px;
+  }
+
+  .form-container {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .form-container img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+
+  .form-group input {
+    width: 100%;
+    padding: 8px;
+  }
+
+  .submit-btn {
+    padding: 12px 20px;
+    font-size: 16px;
+  }
+
+  .form-contain {
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+
+  .input-fields {
+    margin-bottom: 40px;
+  }
+}
+
+@media (max-width: 480px) {
+  .content-wrapper {
+    width: 95%;
+    padding: 10px;
+  }
+
+  .project-name {
+    font-size: 20px;
+    margin-top: 15px;
+  }
+
+  .form-container {
+    flex-direction: column;
+    justify-content: center;
+    padding: 0;
+  }
+
+  .form-group input {
+    width: 100%;
+    padding: 8px;
+    font-size: 14px;
+  }
+
+  .submit-btn {
+    padding: 12px 15px;
+    font-size: 14px;
+  }
+
+  .form-contain {
+    margin-right: 10px;
+    margin-left: 10px;
+  }
 }
