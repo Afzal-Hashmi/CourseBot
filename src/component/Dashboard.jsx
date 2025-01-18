@@ -7,6 +7,7 @@ const Dashboard = () => {
     { id: 1, title: "React Js", description: "Learn React" },
     { id: 2, title: "Python", description: "Learn Python" },
     { id: 3, title: "JAVA", description: "Learn JAVA" },
+
     { id: 4, title: "Node Js", description: "Learn Node" },
     { id: 5, title: "Angular", description: "Learn Angular" },
     { id: 6, title: "Django", description: "Learn Django" },

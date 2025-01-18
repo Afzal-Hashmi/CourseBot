@@ -1,7 +1,26 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
+import { useNavigate } from "react-router-dom";
 import "./Sidebar.css"; // Ensure you create this file for styles
 
 const Sidebar = () => {
+  const navigate = useNavigate();
+  const [user, setUser] = useState("");
+
+  useEffect(() => {
+    // Retrieve user data from localStorage
+    const storedUser = localStorage.getItem("user");
+    setUser(storedUser);
+  }, []);
+
+  // Logout functionality
+  const handleLogout = () => {
+    localStorage.removeItem("user");
+    setUser("");
+    navigate("/");
+  };
+
+  // Render user-specific sidebar content
+
   return (
     <div className={"sidebar"}>
       <div className="sidebar-header">
@@ -21,7 +40,7 @@ const Sidebar = () => {
             <a href="#services">Services</a>
           </li>
           <li>
-            <a href="/">Logout</a>
+            <a href="#">{user}</a>
           </li>
         </ul>
         <footer className="logout">

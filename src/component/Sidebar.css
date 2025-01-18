@@ -16,7 +16,7 @@ body {
   left: -50px;
   width: 13%;
   height: 100%;
-  background-color: #fcebd0;
+  background-color: #f8f3ea;
   transition: all 0.3s ease;
   box-shadow: 2px 0 5px rgba(0, 0, 0, 0.2);
   overflow: hidden;
@@ -57,4 +57,50 @@ body {
   position: absolute;
   bottom: 10px;
   left: 20px;
+}
+
+@media (max-width: 768px) {
+  .sidebar {
+    width: 50%;
+    left: -100%;
+  }
+
+  .sidebar.open {
+    left: 0;
+  }
+
+  .sidebar-menu ul li a {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .sidebar {
+    width: 70%;
+    left: -100%;
+  }
+
+  .sidebar.open {
+    left: 0;
+  }
+
+  .sidebar-menu ul li a {
+    font-size: 14px;
+  }
+
+  .logout {
+    top: 10px;
+    right: 10px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .sidebar {
+    width: 13%;
+    left: 0px;
+  }
+
+  .sidebar-menu ul li a {
+    font-size: 18px;
+  }
 }
