@@ -36,7 +36,7 @@ const Sidebar = () => {
         <footer className="logout">
           <ul>
             <li>
-              <a href="/">Logout</a>
+              <a href="/">Logut</a>
             </li>
           </ul>
         </footer>
