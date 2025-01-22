@@ -12,7 +12,7 @@ const Card = (props) => {
         <h5 className="card-title">{props.title}</h5>
         <p className="card-text">{props.description}</p>
         {props.id ? (
-          <a href={`course/${props.id}`} className="btn btn-danger">
+          <a href={`course/${props.id}`} className="btn btn-danger hhh">
             Details
           </a>
         ) : (

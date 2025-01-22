@@ -14,7 +14,7 @@ const Sidebar = () => {
   return (
     <div className={"sidebar"}>
       <div className="sidebar-header">
-        <h4>
+        <h4 className="course">
           Course<span className="bot">Bot</span>
         </h4>
       </div>
