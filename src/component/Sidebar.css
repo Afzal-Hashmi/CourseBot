@@ -18,18 +18,13 @@ body {
 .sidebar {
   position: fixed;
   top: 0;
-  left: -50px;
-  width: 13%;
+  left: 0;
+  width: 17%;
   height: 100%;
   background-color: #333;
   transition: all 0.3s ease;
   box-shadow: 2px 0 5px rgba(0, 0, 0, 0.2);
   overflow: hidden;
-}
-
-/* Sidebar open state */
-.sidebar {
-  left: 0px;
 }
 
 /* Sidebar menu styles */
@@ -66,7 +61,7 @@ body {
 
 @media (max-width: 768px) {
   .sidebar {
-    width: 50%;
+    /* width: 100%; */
     left: -100%;
   }
 
@@ -81,7 +76,7 @@ body {
 
 @media (max-width: 480px) {
   .sidebar {
-    width: 70%;
+    /* width: 100%; */
     left: -100%;
   }
 
@@ -96,16 +91,5 @@ body {
   .logout {
     top: 10px;
     right: 10px;
-  }
-}
-
-@media (min-width: 1200px) {
-  .sidebar {
-    width: 13%;
-    left: 0px;
-  }
-
-  .sidebar-menu ul li a {
-    font-size: 18px;
   }
 }

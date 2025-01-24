@@ -4,15 +4,19 @@
   width: 100%;
 }
 .side {
-  width: 15%;
+  width: 22%;
 }
 
 .container {
-  width: 85%;
+  width: 90%;
   padding: 30px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 12px;
+}
+
+hr {
+  width: 17%;
 }
 
 @media (max-width: 768px) {

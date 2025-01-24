@@ -159,7 +159,7 @@ const EnrollPage = () => {
     },
   ];
 
-  const { id } = useParams();
+  const { title, id } = useParams();
 
   const course = courseList.find((course) => course.courseID === parseInt(id));
   if (!course) {
@@ -171,21 +171,25 @@ const EnrollPage = () => {
       <div className="side">
         <Sidebar />
       </div>
-      <div className="container">
-        {courseList ? (
-          courseList.map((course) =>
-            course.courseID == id ? (
-              <Card
-                image={course.image}
-                link={course.link}
-                title={course.title}
-                description={course.description}
-              />
-            ) : null
-          )
-        ) : (
-          <p>NO Lecture TO Display</p>
-        )}
+      <div className="mainContainer">
+        <h2 style={{ marginTop: 20 }}>{title}</h2>
+        <hr />
+        <div className="container">
+          {courseList ? (
+            courseList.map((course) =>
+              course.courseID == id ? (
+                <Card
+                  image={course.image}
+                  link={course.link}
+                  title={course.title}
+                  description={course.description}
+                />
+              ) : null
+            )
+          ) : (
+            <p>NO Lecture TO Display</p>
+          )}
+        </div>
       </div>
     </div>
   );

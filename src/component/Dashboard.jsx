@@ -87,6 +87,7 @@ const Dashboard = () => {
       </div>
       <div className="mainContainer">
         <h2 style={{ marginTop: 20 }}>All Courses</h2>
+        <hr />
         <div className="container">
           {courseList ? (
             courseList.map((course) => (
