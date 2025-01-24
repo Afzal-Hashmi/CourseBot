@@ -4,5 +4,12 @@
 }
 
 .card-img {
-  height: 90px;
+  height: 190px;
+  width: 190px;
+}
+
+.hhh {
+  position: absolute;
+  right: 20px;
+  bottom: 35px;
 }

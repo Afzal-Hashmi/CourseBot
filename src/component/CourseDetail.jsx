@@ -50,7 +50,7 @@ const CourseDetail = () => {
     // More courses can be added here
   ];
 
-  const { id } = useParams();
+  const { title, id } = useParams();
   const course = mockCourses.find((course) => course.id === parseInt(id));
 
   if (!course) {
@@ -68,22 +68,24 @@ const CourseDetail = () => {
           <img src={course.image} alt={course.title} />
         </div>
         <div className="course-info">
-          <p>
-            <strong>Instructor:</strong> {course.instructor}
-          </p>
-          <p>
-            <strong>Duration:</strong> {course.duration}
-          </p>
-          <p>
-            <strong>Language:</strong> {course.language}
-          </p>
-          <p>
-            <strong>Enrolled:</strong> {course.enrolled}
-          </p>
+          <div className="detail">
+            <p>
+              <strong>Instructor:</strong> {course.instructor}
+            </p>
+            <p>
+              <strong>Duration:</strong> {course.duration}
+            </p>
+            <p>
+              <strong>Language:</strong> {course.language}
+            </p>
+            <p>
+              <strong>Enrolled:</strong> {course.enrolled}
+            </p>
+          </div>
           <button
             className="enroll-button"
             onClick={() => {
-              Navigate(`/enroll/${course.id}`);
+              Navigate(`/enroll/${title}/${course.id}`);
             }}
           >
             Enroll Now

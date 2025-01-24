@@ -18,8 +18,8 @@ const App = () => {
             <Route path="/" element={<LoginPage />} />
             <Route path="/dashboard" element={<Dashboard />} />
             <Route path="/signup" element={<SignupPage />} />
-            <Route path="/course/:id" element={<CourseDetail />} />
-            <Route path="/enroll/:id" element={<EnrollPage />} />
+            <Route path="/course/:title/:id" element={<CourseDetail />} />
+            <Route path="/enroll/:title/:id" element={<EnrollPage />} />
           </Routes>
         </main>
       </div>
