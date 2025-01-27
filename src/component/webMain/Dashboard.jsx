@@ -81,37 +81,11 @@ const Dashboard = () => {
   ];
 
   return (
-    // <div className="co">
-    //   <div className="side">
-    //     <Sidebar />
-    //   </div>
-    //   <div className="wrapper-container">
-    //     <div className="mainContainer">
-    //       <h2 style={{ marginTop: 20 }}>All Courses</h2>
-    //       <hr />
-    //       <div className="container">
-    //         {courseList ? (
-    //           courseList.map((course) => (
-    //             <Card
-    //               image={course.image}
-    //               id={course.id}
-    //               title={course.title}
-    //               description={course.description}
-    //             />
-    //           ))
-    //         ) : (
-    //           <p>NO Course TO Display</p>
-    //         )}
-    //       </div>
-    //     </div>
-    //   </div>
-    // </div>
-
-    <div className="co">
-      <div className="side">
+    <div className="co" style={{ width: "100%" }}>
+      <div className="side" style={{ width: "20%" }}>
         <Sidebar />
       </div>
-      <div className="wrapper-container">
+      <div className="wrapper-container" style={{ width: "90%" }}>
         <div className="mainContainer">
           <h2 style={{ marginTop: 20 }}>All Courses</h2>
           <hr />
