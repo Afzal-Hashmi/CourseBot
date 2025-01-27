@@ -106,37 +106,28 @@ const Dashboard = () => {
     //     </div>
     //   </div>
     // </div>
-    <div className="container-fluid">
-      <div className="row">
-        {/* Sidebar */}
-        <div className="col-md-3 d-none d-md-block">
-          <Sidebar />
-        </div>
 
-        {/* Main Content */}
-        <div className="col-md-9">
-          <div className="mainContainer mt-4">
-            <h2>All Courses</h2>
-            <hr />
-            <div className="row">
-              {courseList.length > 0 ? (
-                courseList.map((course) => (
-                  <div
-                    className="col-12 col-sm-6 col-md-4 col-lg-3 mb-4"
-                    key={course.id}
-                  >
-                    <Card
-                      image={course.image}
-                      id={course.id}
-                      title={course.title}
-                      description={course.description}
-                    />
-                  </div>
-                ))
-              ) : (
-                <p>No Courses to Display</p>
-              )}
-            </div>
+    <div className="co">
+      <div className="side">
+        <Sidebar />
+      </div>
+      <div className="wrapper-container">
+        <div className="mainContainer">
+          <h2 style={{ marginTop: 20 }}>All Courses</h2>
+          <hr />
+          <div className="container">
+            {courseList ? (
+              courseList.map((course) => (
+                <Card
+                  image={course.image}
+                  id={course.id}
+                  title={course.title}
+                  description={course.description}
+                />
+              ))
+            ) : (
+              <p>NO Course TO Display</p>
+            )}
           </div>
         </div>
       </div>
