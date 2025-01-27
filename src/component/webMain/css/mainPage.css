@@ -107,6 +107,9 @@
 .wrapper-container {
   background-color: #f4f4f9;
 }
+.side {
+  width: 20dvw;
+}
 
 .container {
   padding: 30px;
