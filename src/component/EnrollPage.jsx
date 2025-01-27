@@ -5,25 +5,6 @@ import { useParams } from "react-router-dom";
 
 const EnrollPage = () => {
   const courseList = [
-    // {
-    //   title: "Array in React",
-    //   description: "React Hooks Tutorial - 5 - useState with array",
-    //   courseID: 1,
-    //   link: "https://www.youtube.com/watch?v=RZ5wKYbOM_I",
-    // },
-    // {
-    //   title: "Hooks React",
-    //   description:
-    //     "10 React Hooks Explained // Plus Build your own from Scratch ",
-    //   courseID: 1,
-    //   link: "https://www.youtube.com/watch?v=TNhaISOUy6Q",
-    // },
-    // {
-    //   title: "React Syntax",
-    //   description: "Learn React Syntax",
-    //   courseID: 3,
-    //   link: "https://www.youtube.com/watch?v=HyWYpM_S-2c&pp=ygUMcmVhY3Qgc3ludGF4",
-    // },
     {
       title: "Array in React",
       description: "React Hooks Tutorial - 5 - useState with array",
