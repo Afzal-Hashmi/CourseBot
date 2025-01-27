@@ -1,7 +1,7 @@
 import React from "react";
 import { useParams } from "react-router-dom";
-import "./CourseDetail.css";
 import { useNavigate } from "react-router-dom";
+import Sidebar from "./Sidebar"; // Importing your existing Sidebar component
 
 const CourseDetail = () => {
   const Navigate = useNavigate();
@@ -17,6 +17,13 @@ const CourseDetail = () => {
       duration: "3 Hours 20 minutes",
       language: "English",
       enrolled: "25,000+ students",
+      learnings: [
+        "Understand the fundamentals of React.js",
+        "Learn how to create components",
+        "Manage state effectively",
+        "Use React Router for navigation",
+        "Implement best practices in React development",
+      ],
       description:
         "This course offers a comprehensive guide to React.js, one of the most popular JavaScript libraries for building dynamic web applications. Through hands-on examples, you'll learn state management, component structure, and best practices.",
     },
@@ -31,6 +38,13 @@ const CourseDetail = () => {
       duration: "8 hours and 40 minutes",
       language: "Bilingual",
       enrolled: "25,000+ students",
+      learnings: [
+        "Understand the fundamentals of React.js",
+        "Learn how to create components",
+        "Manage state effectively",
+        "Use React Router for navigation",
+        "Implement best practices in React development",
+      ],
       description:
         "This course offers a comprehensive guide to Python, one of the most popular python libraries for building dynamic web applications. Through hands-on examples, you'll learn state management, component structure, and best practices.",
     },
@@ -44,13 +58,177 @@ const CourseDetail = () => {
       duration: "5 hours and 30 minutes",
       language: "English",
       enrolled: "25,000+ students",
+      learnings: [
+        "Understand the fundamentals of React.js",
+        "Learn how to create components",
+        "Manage state effectively",
+        "Use React Router for navigation",
+        "Implement best practices in React development",
+      ],
       description:
         "This course offers a comprehensive guide to Java, one of the most widely used programming languages in the world. Through hands-on examples, you'll learn the fundamentals of object-oriented programming, data structures, exception handling, multithreading, and best practices for building robust and scalable applications.",
+    },
+    {
+      id: 4,
+      title: "Node.js",
+      subtitle:
+        "Learn Node.js to build efficient, scalable server-side applications with JavaScript.",
+      image:
+        "https://c4.wallpaperflare.com/wallpaper/619/468/16/node-js-javascript-wallpaper-preview.jpg",
+      duration: "6 hours",
+      language: "English",
+      enrolled: "18,000+ students",
+      learnings: [
+        "Master the fundamentals of Node.js",
+        "Build server-side applications with Express.js",
+        "Handle asynchronous programming using callbacks and promises",
+        "Work with databases like MongoDB and PostgreSQL",
+        "Implement RESTful APIs and authentication",
+      ],
+      description:
+        "This course dives deep into Node.js, teaching you how to build scalable and efficient server-side applications. You'll explore modules, asynchronous programming, and how to integrate with databases, all while following best practices.",
+    },
+    {
+      id: 5,
+      title: "Angular",
+      subtitle:
+        "Build powerful, dynamic, and responsive web applications with Angular.",
+      image:
+        "https://logowik.com/content/uploads/images/angular9826.logowik.com.webp",
+      duration: "7 hours",
+      language: "English",
+      enrolled: "30,000+ students",
+      learnings: [
+        "Understand the core concepts of Angular",
+        "Build single-page applications with Angular CLI",
+        "Master component-based architecture",
+        "Work with services and dependency injection",
+        "Implement routing and data binding",
+      ],
+      description:
+        "This course covers the ins and outs of Angular, enabling you to build modern, high-performance web applications. From components to routing, you'll gain hands-on experience in crafting dynamic user interfaces.",
+    },
+    {
+      id: 6,
+      title: "Django",
+      subtitle:
+        "Master Django and learn to create robust and scalable web applications.",
+      image:
+        "https://theclevercompany.se/media/blog/article/image/1565645489-django-logo.gif.0x760_q85.jpg",
+      duration: "8 hours",
+      language: "English",
+      enrolled: "12,500+ students",
+      learnings: [
+        "Learn Django's MVC architecture",
+        "Set up and manage a Django project",
+        "Create models, views, and templates",
+        "Work with Django ORM for database management",
+        "Secure your Django application",
+      ],
+      description:
+        "This course is designed to teach you the fundamentals of Django, one of the most powerful Python frameworks. You'll learn how to build robust web applications, manage databases, and integrate third-party services.",
+    },
+    {
+      id: 7,
+      title: "Swift",
+      subtitle:
+        "Dive into Swift and build elegant and performant iOS applications.",
+      image:
+        "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.icon-icons.com%2Ficons2%2F2699%2FPNG%2F512%2Fswift_logo_icon_168772.png&f=1&nofb=1&ipt=332725c2c223a79ad592f1d7ba5d1cc0f2237a05dae13bdcaeec3a461e6dad81&ipo=images",
+      duration: "5 hours",
+      language: "English",
+      enrolled: "22,000+ students",
+      learnings: [
+        "Master the basics of Swift programming",
+        "Build mobile apps for iOS using Swift",
+        "Understand optionals and closures",
+        "Work with UIKit for designing interfaces",
+        "Deploy applications on the App Store",
+      ],
+      description:
+        "Learn Swift, Apple's programming language for iOS development. This course covers everything from the basics to building real-world applications. It’s perfect for aspiring iOS developers looking to make their first app.",
+    },
+    {
+      id: 8,
+      title: "C++",
+      subtitle:
+        "Enhance your programming skills by mastering C++ for high-performance applications.",
+      image: "https://img-c.udemycdn.com/course/750x422/5710478_6976_4.jpg",
+      duration: "9 hours",
+      language: "English",
+      enrolled: "15,000+ students",
+      learnings: [
+        "Understand the fundamentals of C++",
+        "Learn object-oriented programming concepts",
+        "Master pointers, references, and memory management",
+        "Use Standard Template Library (STL) effectively",
+        "Write efficient and optimized code",
+      ],
+      description:
+        "This course offers a comprehensive guide to C++, helping you become proficient in programming with this powerful language. You will learn everything from the basics to advanced topics like memory management and the STL.",
+    },
+    {
+      id: 9,
+      title: "Ruby",
+      subtitle:
+        "Explore Ruby's simplicity and create powerful web apps with Ruby on Rails.",
+      image: "https://logowik.com/content/uploads/images/ruby6530.jpg",
+      duration: "6 hours",
+      language: "English",
+      enrolled: "14,000+ students",
+      learnings: [
+        "Master the basics of Ruby programming",
+        "Understand object-oriented programming concepts",
+        "Work with Ruby gems and libraries",
+        "Build web applications using Ruby on Rails",
+        "Learn how to handle errors and exceptions",
+      ],
+      description:
+        "This course introduces Ruby, a dynamic and flexible programming language. You'll learn how to write clean and efficient code, create web applications using Ruby on Rails, and understand the Ruby ecosystem to build scalable applications.",
+    },
+    {
+      id: 10,
+      title: "Golang",
+      subtitle:
+        "Learn Golang to develop high-performance, scalable, and modern applications.",
+      image:
+        "https://miro.medium.com/v2/resize:fit:1400/0*yH_VXVCvYm_c_tLS.jpeg",
+      duration: "6 hours",
+      language: "English",
+      enrolled: "10,000+ students",
+      learnings: [
+        "Get comfortable with Go's syntax and structure",
+        "Master concurrency with Goroutines",
+        "Understand Go's memory management",
+        "Build fast and scalable applications",
+        "Create RESTful APIs with Go",
+      ],
+      description:
+        "This course teaches Go, a fast, statically typed language designed for scalability. You'll learn how to write concurrent programs, manage memory efficiently, and create high-performance applications with Go.",
+    },
+    {
+      id: 11,
+      title: "Rust",
+      subtitle:
+        "Master Rust programming for memory-safe, fast, and efficient software development.",
+      image: "https://cdn.k4g.com/blog/app/uploads/2023/09/14183658/rust-1.png",
+      duration: "7 hours",
+      language: "English",
+      enrolled: "8,000+ students",
+      learnings: [
+        "Get started with Rust programming",
+        "Understand ownership, borrowing, and lifetimes",
+        "Write safe and concurrent code",
+        "Use Rust's powerful tooling and ecosystem",
+        "Build fast and reliable systems applications",
+      ],
+      description:
+        "Rust is known for its safety and speed. This course covers the basics of Rust, including its unique memory model, how to build high-performance systems, and how to use Rust for both simple and advanced applications.",
     },
     // More courses can be added here
   ];
 
-  const { title, id } = useParams();
+  const { id } = useParams();
   const course = mockCourses.find((course) => course.id === parseInt(id));
 
   if (!course) {
@@ -58,44 +236,59 @@ const CourseDetail = () => {
   }
 
   return (
-    <div className="course-detail-container">
-      <header className="course-header">
-        <h1 className="course-title">{course.title}</h1>
-        <p className="course-subtitle">{course.subtitle}</p>
-      </header>
-      <div className="course-content">
-        <div className="course-image">
-          <img src={course.image} alt={course.title} />
-        </div>
-        <div className="course-info">
-          <div className="detail">
-            <p>
-              <strong>Instructor:</strong> {course.instructor}
-            </p>
-            <p>
-              <strong>Duration:</strong> {course.duration}
-            </p>
-            <p>
-              <strong>Language:</strong> {course.language}
-            </p>
-            <p>
-              <strong>Enrolled:</strong> {course.enrolled}
-            </p>
+    <div className="co">
+      <div className="side">
+        <Sidebar />
+      </div>
+      <div className="wrapper-container">
+        <div className="mainContainer">
+          <header className="course-header">
+            <h1 className="course-title">{course.title}</h1>
+            <p className="course-subtitle">{course.subtitle}</p>
+          </header>
+          <div className="course-content">
+            <div className="course-image">
+              <img src={course.image} alt={course.title} />
+            </div>
+            <div className="course-info">
+              <div className="detail">
+                <p>
+                  <strong>Instructor:</strong> {course.instructor}
+                </p>
+                <p>
+                  <strong>Duration:</strong> {course.duration}
+                </p>
+                <p>
+                  <strong>Language:</strong> {course.language}
+                </p>
+                <p>
+                  <strong>Enrolled:</strong> {course.enrolled}
+                </p>
+              </div>
+              <button
+                className="enroll-button"
+                onClick={() => {
+                  Navigate(`/enroll/${course.title}/${course.id}`);
+                }}
+              >
+                Enroll Now
+              </button>
+            </div>
           </div>
-          <button
-            className="enroll-button"
-            onClick={() => {
-              Navigate(`/enroll/${title}/${course.id}`);
-            }}
-          >
-            Enroll Now
-          </button>
+          <section className="course-learnings">
+            <h3>What You Will Learn</h3>
+            <ul>
+              {course.learnings.map((learning, index) => (
+                <li key={index}>{learning}</li>
+              ))}
+            </ul>
+          </section>
+          <footer className="course-footer">
+            <h3>About this Course</h3>
+            <p>{course.description}</p>
+          </footer>
         </div>
       </div>
-      <footer className="course-footer">
-        <h3>About this Course</h3>
-        <p>{course.description}</p>
-      </footer>
     </div>
   );
 };

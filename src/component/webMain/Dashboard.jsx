@@ -1,6 +1,6 @@
 import Card from "./card";
 import Sidebar from "./Sidebar.jsx";
-import "./Dashboard.css";
+import "./css/mainPage.css";
 
 const Dashboard = () => {
   const courseList = [
@@ -85,22 +85,24 @@ const Dashboard = () => {
       <div className="side">
         <Sidebar />
       </div>
-      <div className="mainContainer">
-        <h2 style={{ marginTop: 20 }}>All Courses</h2>
-        <hr />
-        <div className="container">
-          {courseList ? (
-            courseList.map((course) => (
-              <Card
-                image={course.image}
-                id={course.id}
-                title={course.title}
-                description={course.description}
-              />
-            ))
-          ) : (
-            <p>NO Course TO Display</p>
-          )}
+      <div className="wrapper-container">
+        <div className="mainContainer">
+          <h2 style={{ marginTop: 20 }}>All Courses</h2>
+          <hr />
+          <div className="container">
+            {courseList ? (
+              courseList.map((course) => (
+                <Card
+                  image={course.image}
+                  id={course.id}
+                  title={course.title}
+                  description={course.description}
+                />
+              ))
+            ) : (
+              <p>NO Course TO Display</p>
+            )}
+          </div>
         </div>
       </div>
     </div>

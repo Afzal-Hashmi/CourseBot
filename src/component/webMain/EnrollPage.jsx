@@ -1,6 +1,5 @@
 import Card from "./card.jsx";
 import Sidebar from "./Sidebar.jsx";
-import "./Dashboard.css";
 import { useParams } from "react-router-dom";
 
 const EnrollPage = () => {
@@ -138,6 +137,514 @@ const EnrollPage = () => {
         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuRqrQhuMwMsg2EhcMbUm4Vj9U9miNcI2lOA&s",
       link: "https://www.youtube.com/watch?v=QrkEqzIypNU",
     },
+    {
+      title: "Node.js Crash Course",
+      description:
+        "Learn the fundamentals of Node.js and how to build scalable applications",
+      courseID: 4,
+      link: "https://www.youtube.com/watch?v=fBNz5xFzTzo",
+    },
+    {
+      title: "Express.js Crash Course",
+      description:
+        "Learn how to build server-side applications with Express.js",
+      courseID: 4,
+      link: "https://www.youtube.com/watch?v=gnsO8-xJ8rs",
+    },
+    {
+      title: "Node.js Tutorial for Beginners",
+      description: "A complete guide to understanding Node.js from scratch",
+      courseID: 4,
+      link: "https://www.youtube.com/watch?v=TlB_eWDSMt4",
+    },
+    {
+      title: "Building REST APIs with Node.js",
+      description: "Learn to build RESTful APIs using Node.js and Express",
+      courseID: 4,
+      link: "https://www.youtube.com/watch?v=1HLkTHGZPvI",
+    },
+    {
+      title: "Node.js Full Course",
+      description: "Master Node.js development in this comprehensive course",
+      courseID: 4,
+      link: "https://www.youtube.com/watch?v=Oe421EPjeNw",
+    },
+    {
+      title: "Node.js Authentication Tutorial",
+      description: "Learn how to implement user authentication in Node.js",
+      courseID: 4,
+      link: "https://www.youtube.com/watch?v=7nafaH9SddU",
+    },
+    {
+      title: "Asynchronous Programming in Node.js",
+      description: "Understand async programming concepts in Node.js",
+      courseID: 4,
+      link: "https://www.youtube.com/watch?v=PoRJizFvTSE",
+    },
+    {
+      title: "Node.js for Beginners",
+      description: "Get started with Node.js in this beginner-friendly guide",
+      courseID: 4,
+      link: "https://www.youtube.com/watch?v=TlB_eWDSMt4",
+    },
+    {
+      title: "Node.js and MongoDB Tutorial",
+      description: "Learn how to use MongoDB with Node.js to build databases",
+      courseID: 4,
+      link: "https://www.youtube.com/watch?v=-0l0Z32k1jw",
+    },
+    {
+      title: "Node.js Performance Optimization",
+      description: "Learn tips and tricks for optimizing Node.js performance",
+      courseID: 4,
+      link: "https://www.youtube.com/watch?v=w1dLpo25L1g",
+    },
+
+    // Angular Courses
+    {
+      title: "Angular Crash Course",
+      description: "A complete guide to building web apps with Angular",
+      courseID: 5,
+      link: "https://www.youtube.com/watch?v=htPYk6QxacQ",
+    },
+    {
+      title: "Learn Angular in 1 Hour",
+      description: "An introduction to Angular for beginners in just one hour",
+      courseID: 5,
+      link: "https://www.youtube.com/watch?v=htPYk6QxacQ",
+    },
+    {
+      title: "Angular Tutorial for Beginners",
+      description: "Complete beginner's guide to learning Angular",
+      courseID: 5,
+      link: "https://www.youtube.com/watch?v=3qBXWUpoPHo",
+    },
+    {
+      title: "Mastering Angular Components",
+      description: "In-depth learning of Angular components",
+      courseID: 5,
+      link: "https://www.youtube.com/watch?v=Fdf5aTYRW0E",
+    },
+    {
+      title: "Angular Forms Tutorial",
+      description: "Learn how to work with Angular forms for better UI",
+      courseID: 5,
+      link: "https://www.youtube.com/watch?v=5GLxZ5T1F34",
+    },
+    {
+      title: "Angular 8 Full Course",
+      description: "Complete guide to Angular 8 and its features",
+      courseID: 5,
+      link: "https://www.youtube.com/watch?v=htPYk6QxacQ",
+    },
+    {
+      title: "Angular Services and Dependency Injection",
+      description: "Understand services and dependency injection in Angular",
+      courseID: 5,
+      link: "https://www.youtube.com/watch?v=Fdf5aTYRW0E",
+    },
+    {
+      title: "Building RESTful APIs with Angular",
+      description: "Learn how to consume REST APIs in Angular apps",
+      courseID: 5,
+      link: "https://www.youtube.com/watch?v=wqKIkN0kZOg",
+    },
+    {
+      title: "Angular Routing and Navigation",
+      description: "Master routing and navigation in Angular applications",
+      courseID: 5,
+      link: "https://www.youtube.com/watch?v=6IMrxAXPR7g",
+    },
+    {
+      title: "Angular Performance Optimization",
+      description:
+        "Learn how to optimize Angular applications for better performance",
+      courseID: 5,
+      link: "https://www.youtube.com/watch?v=Rb_6y0I7skM",
+    },
+
+    // Django Courses
+    {
+      title: "Django Tutorial for Beginners",
+      description: "Building web applications with Django for beginners",
+      courseID: 6,
+      link: "https://www.youtube.com/watch?v=F5mRW0jo-U4",
+    },
+    {
+      title: "Django Full Course",
+      description: "Complete guide to web development with Django",
+      courseID: 6,
+      link: "https://www.youtube.com/watch?v=Jw7hbGbA4A0",
+    },
+    {
+      title: "Django Authentication Tutorial",
+      description: "Learn how to implement authentication in Django",
+      courseID: 6,
+      link: "https://www.youtube.com/watch?v=F5mRW0jo-U4",
+    },
+    {
+      title: "Django REST Framework Tutorial",
+      description: "Learn how to build REST APIs with Django REST Framework",
+      courseID: 6,
+      link: "https://www.youtube.com/watch?v=F5mRW0jo-U4",
+    },
+    {
+      title: "Django and React Tutorial",
+      description: "Learn to build a full-stack app with Django and React",
+      courseID: 6,
+      link: "https://www.youtube.com/watch?v=w3jLJU7DT5E",
+    },
+    {
+      title: "Advanced Django Features",
+      description: "Explore advanced Django features and capabilities",
+      courseID: 6,
+      link: "https://www.youtube.com/watch?v=7X5unTgGhEw",
+    },
+    {
+      title: "Django Forms and Model Forms",
+      description: "Master Django forms and learn to work with ModelForms",
+      courseID: 6,
+      link: "https://www.youtube.com/watch?v=n_Ac_UyxM6I",
+    },
+    {
+      title: "Django Deployment Tutorial",
+      description: "Learn how to deploy Django applications to production",
+      courseID: 6,
+      link: "https://www.youtube.com/watch?v=4Qw4sLhbwz4",
+    },
+    {
+      title: "Django for Web Scraping",
+      description: "Learn how to use Django for web scraping projects",
+      courseID: 6,
+      link: "https://www.youtube.com/watch?v=R9Efa8Lqcmg",
+    },
+    {
+      title: "Django for Beginners: Build a Blog",
+      description: "Learn how to build a blogging platform with Django",
+      courseID: 6,
+      link: "https://www.youtube.com/watch?v=bqvUj-o8XTc",
+    },
+    // Swift Courses
+    {
+      title: "Swift Programming Tutorial",
+      description: "Learn Swift programming for iOS app development",
+      courseID: 7,
+      link: "https://www.youtube.com/watch?v=F2ojpLyyXc8",
+    },
+    {
+      title: "Complete Swift 5 Programming",
+      description: "Master Swift 5 for developing iOS apps",
+      courseID: 7,
+      link: "https://www.youtube.com/watch?v=K1mN8e1_3nM",
+    },
+    {
+      title: "Swift for Beginners",
+      description: "Get started with Swift programming language from scratch",
+      courseID: 7,
+      link: "https://www.youtube.com/watch?v=U3l2fUopbm8",
+    },
+    {
+      title: "Swift Full Course",
+      description: "Complete guide to Swift programming for iOS development",
+      courseID: 7,
+      link: "https://www.youtube.com/watch?v=F2ojpLyyXc8",
+    },
+    {
+      title: "Swift 5 Tutorial for Beginners",
+      description: "Learn Swift 5 basics and build your first app",
+      courseID: 7,
+      link: "https://www.youtube.com/watch?v=wPtGcD1smhg",
+    },
+    {
+      title: "Swift Object-Oriented Programming",
+      description: "Master Object-Oriented Programming in Swift",
+      courseID: 7,
+      link: "https://www.youtube.com/watch?v=ndZv7zDIC08",
+    },
+    {
+      title: "SwiftUI Tutorial for Beginners",
+      description: "Learn to build iOS apps using SwiftUI",
+      courseID: 7,
+      link: "https://www.youtube.com/watch?v=YfRFLnt8x7M",
+    },
+    {
+      title: "Swift Playgrounds Tutorial",
+      description:
+        "Explore Swift programming interactively using Swift Playgrounds",
+      courseID: 7,
+      link: "https://www.youtube.com/watch?v=E-dUNk1-8Yo",
+    },
+    {
+      title: "Swift Performance Optimization",
+      description:
+        "Learn techniques to optimize Swift applications for performance",
+      courseID: 7,
+      link: "https://www.youtube.com/watch?v=7EYk5Jqg1vM",
+    },
+    {
+      title: "Swift Networking Tutorial",
+      description:
+        "Learn how to work with APIs and manage network requests in Swift",
+      courseID: 7,
+      link: "https://www.youtube.com/watch?v=Hxx-Mw8iZRM",
+    },
+
+    // C++ Courses
+    {
+      title: "C++ Programming Tutorial",
+      description: "Learn C++ Programming from beginner to advanced concepts",
+      courseID: 8,
+      link: "https://www.youtube.com/watch?v=vLnPwxZdW4Y",
+    },
+    {
+      title: "C++ Full Course",
+      description: "Complete guide to learning C++ from the ground up",
+      courseID: 8,
+      link: "https://www.youtube.com/watch?v=1v9VbdxL6eI",
+    },
+    {
+      title: "C++ for Beginners",
+      description:
+        "Get started with C++ programming with this beginner tutorial",
+      courseID: 8,
+      link: "https://www.youtube.com/watch?v=_bYFu9mB1Z8",
+    },
+    {
+      title: "Mastering C++ Object-Oriented Programming",
+      description: "In-depth guide to mastering OOP concepts in C++",
+      courseID: 8,
+      link: "https://www.youtube.com/watch?v=Z6c_b3a7cB0",
+    },
+    {
+      title: "C++ Data Structures and Algorithms",
+      description:
+        "Learn how to implement common data structures and algorithms in C++",
+      courseID: 8,
+      link: "https://www.youtube.com/watch?v=R5KnW-43TZs",
+    },
+    {
+      title: "C++ STL Tutorial",
+      description: "Master the Standard Template Library (STL) in C++",
+      courseID: 8,
+      link: "https://www.youtube.com/watch?v=HG3rPLJfwdw",
+    },
+    {
+      title: "Advanced C++ Programming",
+      description: "Learn advanced C++ features and techniques",
+      courseID: 8,
+      link: "https://www.youtube.com/watch?v=QkWRz0Zyt9s",
+    },
+    {
+      title: "C++ Multi-threading Tutorial",
+      description: "Learn how to implement multi-threading in C++",
+      courseID: 8,
+      link: "https://www.youtube.com/watch?v=v_1_gmPbQU4",
+    },
+    {
+      title: "C++ GUI Programming with Qt",
+      description: "Build graphical user interfaces (GUIs) with C++ and Qt",
+      courseID: 8,
+      link: "https://www.youtube.com/watch?v=JvXcH6-zjD0",
+    },
+    {
+      title: "C++ Game Development Tutorial",
+      description: "Learn game development using C++ and game engines",
+      courseID: 8,
+      link: "https://www.youtube.com/watch?v=52B2kcNHTeI",
+    },
+
+    // Ruby Courses
+    {
+      title: "Ruby on Rails Tutorial",
+      description:
+        "Learn Ruby on Rails by building a real-world web application",
+      courseID: 9,
+      link: "https://www.youtube.com/watch?v=fmyvWz5z3M0",
+    },
+    {
+      title: "Ruby Full Course",
+      description: "Complete guide to Ruby programming language",
+      courseID: 9,
+      link: "https://www.youtube.com/watch?v=t_isvNh0EoE",
+    },
+    {
+      title: "Learn Ruby for Beginners",
+      description: "Get started with Ruby programming language from scratch",
+      courseID: 9,
+      link: "https://www.youtube.com/watch?v=t_isvNh0EoE",
+    },
+    {
+      title: "Ruby on Rails for Beginners",
+      description: "Learn how to build web applications with Ruby on Rails",
+      courseID: 9,
+      link: "https://www.youtube.com/watch?v=U6dC4xlG50Q",
+    },
+    {
+      title: "Master Ruby Programming",
+      description: "Comprehensive guide to mastering Ruby programming language",
+      courseID: 9,
+      link: "https://www.youtube.com/watch?v=H0r7q_HOrq8",
+    },
+    {
+      title: "Ruby on Rails CRUD Operations",
+      description:
+        "Learn how to perform Create, Read, Update, Delete operations in Rails",
+      courseID: 9,
+      link: "https://www.youtube.com/watch?v=ZzOaJYl6WbY",
+    },
+    {
+      title: "Ruby on Rails Authentication",
+      description:
+        "Learn how to implement authentication in Ruby on Rails applications",
+      courseID: 9,
+      link: "https://www.youtube.com/watch?v=XxWkmihOpT0",
+    },
+    {
+      title: "Advanced Ruby on Rails",
+      description: "Deep dive into advanced Ruby on Rails features",
+      courseID: 9,
+      link: "https://www.youtube.com/watch?v=fmyvWz5z3M0",
+    },
+    {
+      title: "Ruby on Rails RESTful API Tutorial",
+      description: "Learn how to build RESTful APIs with Ruby on Rails",
+      courseID: 9,
+      link: "https://www.youtube.com/watch?v=4U2U61v9Hdg",
+    },
+    {
+      title: "Ruby and Sinatra Web Framework",
+      description:
+        "Learn to build web applications with Ruby using the Sinatra framework",
+      courseID: 9,
+      link: "https://www.youtube.com/watch?v=PD6XU2QhZG0",
+    },
+    // Go (Golang) Courses
+    {
+      title: "Go Programming Tutorial",
+      description: "An introduction to Go programming for web development",
+      courseID: 10,
+      link: "https://www.youtube.com/watch?v=YS4e4q9oZNs",
+    },
+    {
+      title: "Learn Golang in 1 Hour",
+      description: "Get up and running with Go in just one hour",
+      courseID: 10,
+      link: "https://www.youtube.com/watch?v=8pDqJVdNa44",
+    },
+    {
+      title: "Go Programming for Beginners",
+      description: "Beginner's guide to learning Go programming language",
+      courseID: 10,
+      link: "https://www.youtube.com/watch?v=3dH7QnLwK7k",
+    },
+    {
+      title: "Mastering Go for Web Development",
+      description: "Learn how to build web applications using Go",
+      courseID: 10,
+      link: "https://www.youtube.com/watch?v=YkUzzHNNh0A",
+    },
+    {
+      title: "Go Concurrency Tutorial",
+      description:
+        "Learn Go's concurrency model for writing concurrent applications",
+      courseID: 10,
+      link: "https://www.youtube.com/watch?v=CHp5BfDZZ-E",
+    },
+    {
+      title: "Go Data Structures and Algorithms",
+      description: "Master essential data structures and algorithms in Go",
+      courseID: 10,
+      link: "https://www.youtube.com/watch?v=Kvsunv-VGgA",
+    },
+    {
+      title: "Go Web Development with Gin",
+      description:
+        "Learn to build web applications using the Gin framework in Go",
+      courseID: 10,
+      link: "https://www.youtube.com/watch?v=c82t9xaZTGA",
+    },
+    {
+      title: "Go Testing and Best Practices",
+      description: "Master testing and writing clean, maintainable Go code",
+      courseID: 10,
+      link: "https://www.youtube.com/watch?v=CSFHZlfXKbA",
+    },
+    {
+      title: "Building REST APIs with Go",
+      description: "Learn how to build RESTful APIs in Go",
+      courseID: 10,
+      link: "https://www.youtube.com/watch?v=3PrrAFRO_58",
+    },
+    {
+      title: "Go Advanced Tutorial",
+      description:
+        "Deep dive into advanced Go programming concepts and techniques",
+      courseID: 10,
+      link: "https://www.youtube.com/watch?v=vN4st6UnM3k",
+    },
+
+    // Rust Courses
+    {
+      title: "Rust Programming Tutorial",
+      description: "Introduction to Rust programming for system development",
+      courseID: 11,
+      link: "https://www.youtube.com/watch?v=zF34dRivLOw",
+    },
+    {
+      title: "Rust Full Course",
+      description: "Master Rust and build high-performance applications",
+      courseID: 11,
+      link: "https://www.youtube.com/watch?v=ygL_xcavzQ4",
+    },
+    {
+      title: "Rust Crash Course",
+      description: "A quick overview of the Rust programming language",
+      courseID: 11,
+      link: "https://www.youtube.com/watch?v=8SyaPbGF9Uo",
+    },
+    {
+      title: "Rust for Beginners",
+      description: "Beginner's guide to learning Rust programming language",
+      courseID: 11,
+      link: "https://www.youtube.com/watch?v=R6lW5zGpFnA",
+    },
+    {
+      title: "Rust Programming for Web Development",
+      description: "Learn how to use Rust for building web applications",
+      courseID: 11,
+      link: "https://www.youtube.com/watch?v=U2LHT7m-xAY",
+    },
+    {
+      title: "Mastering Rust Ownership and Borrowing",
+      description: "Deep dive into Rust's ownership and borrowing model",
+      courseID: 11,
+      link: "https://www.youtube.com/watch?v=JQhPJSJK4lE",
+    },
+    {
+      title: "Rust Data Structures and Algorithms",
+      description: "Learn data structures and algorithms in Rust",
+      courseID: 11,
+      link: "https://www.youtube.com/watch?v=Xue_lmh7h44",
+    },
+    {
+      title: "Rust Concurrency and Asynchronous Programming",
+      description: "Learn Rust's concurrency and async features",
+      courseID: 11,
+      link: "https://www.youtube.com/watch?v=UbHoJWkZXB8",
+    },
+    {
+      title: "Rust WebAssembly Tutorial",
+      description: "Learn to build WebAssembly applications with Rust",
+      courseID: 11,
+      link: "https://www.youtube.com/watch?v=4oVbVwE-VPU",
+    },
+    {
+      title: "Building Systems with Rust",
+      description:
+        "Master the use of Rust for building high-performance systems",
+      courseID: 11,
+      link: "https://www.youtube.com/watch?v=p03tx_oGiUk",
+    },
   ];
 
   const { title, id } = useParams();
@@ -152,24 +659,26 @@ const EnrollPage = () => {
       <div className="side">
         <Sidebar />
       </div>
-      <div className="mainContainer">
-        <h2 style={{ marginTop: 20 }}>{title}</h2>
-        <hr />
-        <div className="container">
-          {courseList ? (
-            courseList.map((course) =>
-              course.courseID == id ? (
-                <Card
-                  image={course.image}
-                  link={course.link}
-                  title={course.title}
-                  description={course.description}
-                />
-              ) : null
-            )
-          ) : (
-            <p>NO Lecture TO Display</p>
-          )}
+      <div className="wrapper-container">
+        <div className="mainContainer">
+          <h2 style={{ marginTop: 20 }}>{title}</h2>
+          <hr />
+          <div className="container">
+            {courseList ? (
+              courseList.map((course) =>
+                course.courseID == id ? (
+                  <Card
+                    image={course.image}
+                    link={course.link}
+                    title={course.title}
+                    description={course.description}
+                  />
+                ) : null
+              )
+            ) : (
+              <p>NO Lecture TO Display</p>
+            )}
+          </div>
         </div>
       </div>
     </div>
