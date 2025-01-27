@@ -82,10 +82,10 @@ const Dashboard = () => {
 
   return (
     <div className="co" style={{ width: "100%" }}>
-      <div className="side" style={{ width: "20%" }}>
+      <div className="side">
         <Sidebar />
       </div>
-      <div className="wrapper-container" style={{ width: "90%" }}>
+      <div className="wrapper-container" style={{ width: "100%" }}>
         <div className="mainContainer">
           <h2 style={{ marginTop: 20 }}>All Courses</h2>
           <hr />

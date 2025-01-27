@@ -236,11 +236,11 @@ const CourseDetail = () => {
   }
 
   return (
-    <div className="co">
+    <div className="co" style={{ width: "100%" }}>
       <div className="side">
         <Sidebar />
       </div>
-      <div className="wrapper-container">
+      <div className="wrapper-container" style={{ width: "100%" }}>
         <div className="mainContainer">
           <header className="course-header">
             <h1 className="course-title">{course.title}</h1>

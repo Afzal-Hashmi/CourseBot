@@ -655,11 +655,11 @@ const EnrollPage = () => {
   }
 
   return (
-    <div className="co">
+    <div className="co" style={{ width: "100%" }}>
       <div className="side">
         <Sidebar />
       </div>
-      <div className="wrapper-container">
+      <div className="wrapper-container" style={{ width: "100%" }}>
         <div className="mainContainer">
           <h2 style={{ marginTop: 20 }}>{title}</h2>
           <hr />
