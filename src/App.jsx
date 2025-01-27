@@ -1,11 +1,11 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 
-import LoginPage from "./component/LoginPage";
-import SignupPage from "./component/SignupPage";
-import Dashboard from "./component/Dashboard";
-import CourseDetail from "./component/CourseDetail";
-import EnrollPage from "./component/EnrollPage";
+import LoginPage from "./component/auth/LoginPage";
+import SignupPage from "./component/auth/SignupPage";
+import Dashboard from "./component/webMain/Dashboard";
+import CourseDetail from "./component/webMain/CourseDetail";
+import EnrollPage from "./component/webMain/EnrollPage";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 
