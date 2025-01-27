@@ -107,6 +107,7 @@
 .wrapper-container {
   background-color: #f4f4f9;
   width: 100%;
+  padding: 10px;
 }
 .side {
   width: 20%;
